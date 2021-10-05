@@ -8,3 +8,10 @@ To make it work, I have done the following steps:
 1. Install LLVM-12.0.1-win64.exe(https://releases.llvm.org/download.html) on your machine to prepare the according compiler and linker from LLVM. 
 2. install llvm.vsix(https://marketplace.visualstudio.com/items?itemName=LLVMExtensions.llvm-toolchain) for Visual Studio 2017 so that we can modify the platfrom toolkit from Visual Studio 2017 (v141) to LLVM in Property-->General.
 3. Correct the left errors one by one, some only need to be commented out.
+
+For most users, just need to check the files from Release.
+
+Windows 10 X64
+
+From Imlab-chd 2021.10.06 
+
