@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\skeletons\ANY.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_application.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_bit_data.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_codecs.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_codecs_prim.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_internal.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_ioc.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_random_fill.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_SEQUENCE_OF.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_SET_OF.h" />
+    <ClInclude Include="..\..\..\skeletons\asn_system.h" />
+    <ClInclude Include="..\..\..\skeletons\ber_decoder.h" />
+    <ClInclude Include="..\..\..\skeletons\ber_tlv_length.h" />
+    <ClInclude Include="..\..\..\skeletons\ber_tlv_tag.h" />
+    <ClInclude Include="..\..\..\skeletons\BIT_STRING.h" />
+    <ClInclude Include="..\..\..\skeletons\BMPString.h" />
+    <ClInclude Include="..\..\..\skeletons\BOOLEAN.h" />
+    <ClInclude Include="..\..\..\skeletons\constraints.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_CHOICE.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_SEQUENCE.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_SEQUENCE_OF.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_SET.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_SET_OF.h" />
+    <ClInclude Include="..\..\..\skeletons\constr_TYPE.h" />
+    <ClInclude Include="..\..\..\skeletons\der_encoder.h" />
+    <ClInclude Include="..\..\..\skeletons\ENUMERATED.h" />
+    <ClInclude Include="..\..\..\skeletons\GeneralizedTime.h" />
+    <ClInclude Include="..\..\..\skeletons\GeneralString.h" />
+    <ClInclude Include="..\..\..\skeletons\GraphicString.h" />
+    <ClInclude Include="..\..\..\skeletons\IA5String.h" />
+    <ClInclude Include="..\..\..\skeletons\INTEGER.h" />
+    <ClInclude Include="..\..\..\skeletons\ISO646String.h" />
+    <ClInclude Include="..\..\..\skeletons\NativeEnumerated.h" />
+    <ClInclude Include="..\..\..\skeletons\NativeInteger.h" />
+    <ClInclude Include="..\..\..\skeletons\NativeReal.h" />
+    <ClInclude Include="..\..\..\skeletons\NULL.h" />
+    <ClInclude Include="..\..\..\skeletons\NumericString.h" />
+    <ClInclude Include="..\..\..\skeletons\ObjectDescriptor.h" />
+    <ClInclude Include="..\..\..\skeletons\OBJECT_IDENTIFIER.h" />
+    <ClInclude Include="..\..\..\skeletons\OCTET_STRING.h" />
+    <ClInclude Include="..\..\..\skeletons\oer_decoder.h" />
+    <ClInclude Include="..\..\..\skeletons\oer_encoder.h" />
+    <ClInclude Include="..\..\..\skeletons\oer_support.h" />
+    <ClInclude Include="..\..\..\skeletons\OPEN_TYPE.h" />
+    <ClInclude Include="..\..\..\skeletons\per_decoder.h" />
+    <ClInclude Include="..\..\..\skeletons\per_encoder.h" />
+    <ClInclude Include="..\..\..\skeletons\per_opentype.h" />
+    <ClInclude Include="..\..\..\skeletons\per_support.h" />
+    <ClInclude Include="..\..\..\skeletons\PrintableString.h" />
+    <ClInclude Include="..\..\..\skeletons\REAL.h" />
+    <ClInclude Include="..\..\..\skeletons\RELATIVE-OID.h" />
+    <ClInclude Include="..\..\..\skeletons\T61String.h" />
+    <ClInclude Include="..\..\..\skeletons\TeletexString.h" />
+    <ClInclude Include="..\..\..\skeletons\UniversalString.h" />
+    <ClInclude Include="..\..\..\skeletons\UTCTime.h" />
+    <ClInclude Include="..\..\..\skeletons\UTF8String.h" />
+    <ClInclude Include="..\..\..\skeletons\VideotexString.h" />
+    <ClInclude Include="..\..\..\skeletons\VisibleString.h" />
+    <ClInclude Include="..\..\..\skeletons\xer_decoder.h" />
+    <ClInclude Include="..\..\..\skeletons\xer_encoder.h" />
+    <ClInclude Include="..\..\..\skeletons\xer_support.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\skeletons\ANY.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_application.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_bit_data.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_codecs_prim.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_internal.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_random_fill.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_SEQUENCE_OF.c" />
+    <ClCompile Include="..\..\..\skeletons\asn_SET_OF.c" />
+    <ClCompile Include="..\..\..\skeletons\ber_decoder.c" />
+    <ClCompile Include="..\..\..\skeletons\ber_tlv_length.c" />
+    <ClCompile Include="..\..\..\skeletons\ber_tlv_tag.c" />
+    <ClCompile Include="..\..\..\skeletons\BIT_STRING.c" />
+    <ClCompile Include="..\..\..\skeletons\BIT_STRING_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\BMPString.c" />
+    <ClCompile Include="..\..\..\skeletons\BOOLEAN.c" />
+    <ClCompile Include="..\..\..\skeletons\constraints.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_CHOICE.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_CHOICE_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SEQUENCE.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SEQUENCE_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SEQUENCE_OF.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SET.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SET_OF.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_SET_OF_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\constr_TYPE.c" />
+    <ClCompile Include="..\..\..\skeletons\der_encoder.c" />
+    <ClCompile Include="..\..\..\skeletons\ENUMERATED.c" />
+    <ClCompile Include="..\..\..\skeletons\GeneralizedTime.c" />
+    <ClCompile Include="..\..\..\skeletons\GeneralString.c" />
+    <ClCompile Include="..\..\..\skeletons\GraphicString.c" />
+    <ClCompile Include="..\..\..\skeletons\IA5String.c" />
+    <ClCompile Include="..\..\..\skeletons\INTEGER.c" />
+    <ClCompile Include="..\..\..\skeletons\INTEGER_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\ISO646String.c" />
+    <ClCompile Include="..\..\..\skeletons\NativeEnumerated.c" />
+    <ClCompile Include="..\..\..\skeletons\NativeEnumerated_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\NativeInteger.c" />
+    <ClCompile Include="..\..\..\skeletons\NativeInteger_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\NativeReal.c" />
+    <ClCompile Include="..\..\..\skeletons\NULL.c" />
+    <ClCompile Include="..\..\..\skeletons\NumericString.c" />
+    <ClCompile Include="..\..\..\skeletons\ObjectDescriptor.c" />
+    <ClCompile Include="..\..\..\skeletons\OBJECT_IDENTIFIER.c" />
+    <ClCompile Include="..\..\..\skeletons\OCTET_STRING.c" />
+    <ClCompile Include="..\..\..\skeletons\OCTET_STRING_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\oer_decoder.c" />
+    <ClCompile Include="..\..\..\skeletons\oer_encoder.c" />
+    <ClCompile Include="..\..\..\skeletons\oer_support.c" />
+    <ClCompile Include="..\..\..\skeletons\OPEN_TYPE.c" />
+    <ClCompile Include="..\..\..\skeletons\OPEN_TYPE_oer.c" />
+    <ClCompile Include="..\..\..\skeletons\per_decoder.c" />
+    <ClCompile Include="..\..\..\skeletons\per_encoder.c" />
+    <ClCompile Include="..\..\..\skeletons\per_opentype.c" />
+    <ClCompile Include="..\..\..\skeletons\per_support.c" />
+    <ClCompile Include="..\..\..\skeletons\PrintableString.c" />
+    <ClCompile Include="..\..\..\skeletons\REAL.c" />
+    <ClCompile Include="..\..\..\skeletons\RELATIVE-OID.c" />
+    <ClCompile Include="..\..\..\skeletons\T61String.c" />
+    <ClCompile Include="..\..\..\skeletons\TeletexString.c" />
+    <ClCompile Include="..\..\..\skeletons\UniversalString.c" />
+    <ClCompile Include="..\..\..\skeletons\UTCTime.c" />
+    <ClCompile Include="..\..\..\skeletons\UTF8String.c" />
+    <ClCompile Include="..\..\..\skeletons\VideotexString.c" />
+    <ClCompile Include="..\..\..\skeletons\VisibleString.c" />
+    <ClCompile Include="..\..\..\skeletons\xer_decoder.c" />
+    <ClCompile Include="..\..\..\skeletons\xer_encoder.c" />
+    <ClCompile Include="..\..\..\skeletons\xer_support.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\skeletons\file-dependencies" />
+    <None Include="..\..\..\skeletons\Makefile.am" />
+    <None Include="..\..\..\skeletons\README" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{B807A2CA-B33C-4AD0-8C02-93F887AF7001}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>skeletons</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>llvm</PlatformToolset>
+    <WholeProgramOptimization>false</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;SKELETONS_EXPORTS;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\TrafficSimulation\asn1c-master\libasn1common;D:\TrafficSimulation\asn1c-master\libasn1parser;D:\TrafficSimulation\asn1c-master\libasn1compiler;D:\TrafficSimulation\asn1c-master\libasn1print;D:\TrafficSimulation\asn1c-master\libasn1fix;D:\TrafficSimulation\asn1c-master\skeletons</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;SKELETONS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\TrafficSimulation\asn1c-master\libasn1common;D:\TrafficSimulation\asn1c-master\libasn1parser;D:\TrafficSimulation\asn1c-master\libasn1compiler;D:\TrafficSimulation\asn1c-master\libasn1print;D:\TrafficSimulation\asn1c-master\libasn1fix;D:\TrafficSimulation\asn1c-master\skeletons</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;SKELETONS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\TrafficSimulation\asn1c-master\libasn1common;D:\TrafficSimulation\asn1c-master\libasn1parser;D:\TrafficSimulation\asn1c-master\libasn1compiler;D:\TrafficSimulation\asn1c-master\libasn1print;D:\TrafficSimulation\asn1c-master\libasn1fix;D:\TrafficSimulation\asn1c-master\skeletons</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;SKELETONS_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>D:\TrafficSimulation\asn1c-master\libasn1common;D:\TrafficSimulation\asn1c-master\libasn1parser;D:\TrafficSimulation\asn1c-master\libasn1compiler;D:\TrafficSimulation\asn1c-master\libasn1print;D:\TrafficSimulation\asn1c-master\libasn1fix;D:\TrafficSimulation\asn1c-master\skeletons</AdditionalIncludeDirectories>
+      <CompileAs>CompileAsC</CompileAs>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
