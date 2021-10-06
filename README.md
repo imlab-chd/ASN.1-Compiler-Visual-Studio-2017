@@ -1,7 +1,7 @@
 # Open Source ASN.1 Compiler(Visual Studio 2017)
  Open Source ASN.1 Compiler(Visual Studio 2017)
 
-Knowledge about ASN.1, please see https://github.com/vlm/asn1c
+Knowledge about ASN.1, please see https://github.com/vlm/asn1c, here is v0.9.28.
 
 Many difficulites to compile ASN.1 with Visual Studio 2017 since it does not support C99 very well.
 To make it work, I have done the following steps:
